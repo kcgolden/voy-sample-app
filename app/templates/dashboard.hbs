@@ -1,6 +1,7 @@
 <div class="list-panel">
 <ul>
 	{{#each controller.content as |item|}}
+	//do you have to do this? Why not {{#each item in model}}?
 		<li>
 			<span>
 			{{#linkTo (to-lower item.name)}}
