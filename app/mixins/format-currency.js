@@ -4,6 +4,7 @@ export default Ember.Mixin.create({
 	formatCurrency: function(amount) {
 		var i = parseFloat(amount),
 		s;
+		//use better variable names
 		if (isNaN(i)) {
 			i = 0.00;
 		}
