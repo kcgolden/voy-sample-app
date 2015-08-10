@@ -5,6 +5,7 @@ var Employment = DS.Model.extend({
 	amt: DS.attr('number')
 });
 
+//try http-mocks instead of fixtures. You can read about them in the ember guide
 Employment.reopenClass({
 	FIXTURES: [{
 		"id":1,
